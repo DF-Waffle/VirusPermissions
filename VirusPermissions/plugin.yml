@@ -1,0 +1,24 @@
+name: VirusPermissons
+main: com.waffle.bukkit.Main
+version: 1.0
+author: Waffle
+commands:
+  isitme:
+    description: Test
+  adminmode:
+    description: Test 2
+  playermode:
+    description: Sets playermode to survival and visable
+  nightvis:
+    description: gives night vision
+  shield:
+    description: op shield
+permissons:
+  adminmode.admin:
+    description: Sets user into adminmode(Vanishes player and sets Creative Mode)
+    default: false
+  adminmode.player:
+    description: Sets user into playermode
+    default: false
+  shield:
+    default: op
